@@ -27,6 +27,7 @@ def crear_bd():
     conexion.close()
 
     print("Base de datos creada correctamente.")
+    print("Base de datos creada con exito")
 
 
 # ==========================================
