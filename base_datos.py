@@ -88,7 +88,7 @@ def alta_alumno():
         conexion.close()
 
 # ==========================================
-# ======= Modulo de modificaciones
+# ======= Modulo  de modificaciones  
 # ==========================================
 
 def modificar_alumno():
@@ -96,7 +96,7 @@ def modificar_alumno():
     conexion = sqlite3.connect("database/alumnos.db")
     cursor = conexion.cursor()
 
-    print("\n===== MODIFICACIÓN DE ALUMNO =====")
+    print("\n====== MODIFICACIÓN DE ALUMNO ======")
 
     matricula = input("Ingrese la matrícula del alumno: ").strip()
 
